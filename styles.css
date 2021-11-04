@@ -1,0 +1,35 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+thead {
+  background-color: rgb(177, 201, 245);
+}
+
+th,
+td {
+  width: 200px;
+  text-align: center;
+}
+
+#submit {
+  background-color: rgb(177, 201, 245);
+}
+
+#submit:hover {
+  background-color: rgb(121, 186, 242);
+}
+
+.button {
+  background-color: rgb(187, 47, 47);
+  color: white;
+}
+
+.button:hover {
+  background-color: rgb(255, 78, 78);
+  /* color: white; */
+}

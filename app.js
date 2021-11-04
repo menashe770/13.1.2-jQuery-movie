@@ -1,10 +1,6 @@
-$('body').on('click', function (e) {
-  $(e.target.parent().remove());
-});
-
 $('form').on('submit', function (e) {
   e.preventDefault();
-  $('table').append(
+  $('tbody').append(
     `<tr>
         <td>${$('#title').val()}</td>
         <td>${$('#rating').val()}</td>
@@ -14,4 +10,8 @@ $('form').on('submit', function (e) {
       </tr>`
   );
   $('#new-form').trigger('reset');
+});
+
+$('body').on('click', '.button', function () {
+  $(this).parent().parent().remove();
 });
